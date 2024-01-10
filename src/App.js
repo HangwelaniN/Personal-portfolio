@@ -12,11 +12,12 @@ import Home from './Home';
 import Contacts from './Contacts';
 
 
+
 function App() {
   return (
     <BrowserRouter>
-  <div className="App">
-     <Navbar expand="lg" className="bg-body-tertiary">
+  <div className="App" >
+     <Navbar expand="lg" >
       <Container fluid>
         <Navbar.Brand href="#">HangwelaniN</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -34,7 +35,7 @@ function App() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-
+     
     <div>
       <Routes>
         <Route path="/Home" element={<Home />} />

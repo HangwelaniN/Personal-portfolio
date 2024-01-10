@@ -1,38 +1,74 @@
 .App {
-  text-align: center;
+  height: 100%;
+  background-image: url("./imgs/background1.jpg");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.home{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 150px 0;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  align-items: center;
+  color: black;
+
+}
+p, h1{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+.home p{
+  font-size:larg;
+  font-weight:700;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.home p1{
+  font-size: 16px;
+  margin: 15px 0;
+  max-width: 520px;
+  letter-spacing: 2px;
+  color: black;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.color{
+  color: rgb(212, 124, 212);
+  font-weight:bold;
+}
+.in{
+  color: rgb(0,118,179);
+}
+.html{
+  color: rgb(221,75,37);
+}
+.css{
+  color: rgb(37,75,223);
+}
+.js{
+  color: rgb(232,212,77);
+}
+.react{
+  color:rgb(94,211,243) ;
+}
+.tech {
+  color:black ;
+  font-weight: 600;
+
+}
+.stack, .socials{
+  font-size:x-large ;
+  
+}
+.hub{
+  color: black;
+}
+.hub:hover {
+  color: rgb(226, 142, 226);
+}
+.in:hover {
+  color: rgb(226, 142, 226);
+  cursor: pointer;
 }
