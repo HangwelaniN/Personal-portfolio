@@ -32,8 +32,8 @@ export default function Home(){
             <FontAwesomeIcon icon={faReact} className="react mx-4"/>
             </span>
         </div>
-
-        </div>
+     
+     </div>
         
     )
-}
+};

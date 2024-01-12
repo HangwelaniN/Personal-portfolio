@@ -1,9 +1,10 @@
-.App {
-  height: 100%;
+.App{
+  height: 120vh;
   background-image: url("./imgs/background1.jpg");
 }
+ 
 
-.home{
+.home {
   display: flex;
   flex-direction: column;
   max-width: 1200px;
@@ -72,3 +73,24 @@ p, h1{
   color: rgb(226, 142, 226);
   cursor: pointer;
 }
+.footer{
+  background-color:rgb(244,197,184);
+
+}
+.icons{
+  font-size: small;
+  color:rgb(227, 121, 241);
+}
+.icons:hover{
+  font-size: medium;
+    color:rgb(216, 76, 235);
+}
+.no{
+  color: black;
+  font-size: small;
+}
+.name{
+  font-size:large;
+  font-weight: bolder;
+}
+
