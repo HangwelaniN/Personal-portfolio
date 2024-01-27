@@ -13,7 +13,7 @@ export default function About () {
             Not for it to only look visually appealing but also provide smooth and enjoyable interaction for the visitors.
             </p>
             <br />
-            <Button variant="outline-info">Download CV</Button>
+            <a href="Hangwelani-CV.pdf" download="Hangwelani-CV.pdf"><Button variant="outline-info">Download CV</Button></a>
             </div>
         </div>
     )

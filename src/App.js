@@ -1,11 +1,5 @@
 import './App.css';
-import {Container,Nav,Navbar} from 'react-bootstrap';
-import {
-  BrowserRouter,
-  Routes,
-  Route,
-  Link
-} from "react-router-dom";
+import {Container} from 'react-bootstrap';
 import About  from './About';
 import Projects from './Projects';
 import Home from './Home';
@@ -21,38 +15,13 @@ import {faPhone } from '@fortawesome/free-solid-svg-icons'
 
 function App() {
   return (
-    <BrowserRouter>
+    
   <div className="App" >
-     <Navbar expand="lg" >
-      <Container fluid>
-        <Navbar.Brand href="#">HangwelaniN</Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbarScroll" />
-        <Navbar.Collapse id="navbarScroll">
-          <Nav
-            className=" left me-auto my-2 my-lg-0"
-            style={{ maxHeight: '100px' }}
-            navbarScroll
-          >
-            <Nav.Link  as={Link} to="/">Home</Nav.Link>
-            <Nav.Link as={Link} to="/About">About</Nav.Link>
-            <Nav.Link  as={Link} to="/Projects">Projects</Nav.Link>
-            <Nav.Link as={Link} to="/Contacts">Contacts</Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
-  
-    <div>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About/>} />
-        <Route path="/Projects" element={<Projects/>}/>
-        <Route path="/Contacts" element={<Contacts/>} />
-      </Routes>
-      
-    </div>
- 
-  </div>
+    <h1 className='p-3 fs-3'>HangwelaniN</h1>
+     <Home />
+     <About />
+     <Projects />
+     <Contacts />
   <Container fluid>
        <Row className=" footer sjustify-content-md-center">
        <Col className='name'>HangwelaniN</Col>
@@ -61,12 +30,13 @@ function App() {
         <Col xs lg="2">
         < a href="tel:+27624328241"><FontAwesomeIcon icon={faPhone} className="icons" /></a>
               <br />
-               <p1 className="no"> +27624328241 </p1>
+               <p1 className="no"> +2762 057 0579 </p1>
         </Col>
        </Row>
      </Container>
-  </BrowserRouter>
-  
+     
+    
+  </div>
     
   );
 }

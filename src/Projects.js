@@ -13,11 +13,11 @@ export default function Projects () {
         <Container>
             <Row>
               <Col className="weather">
-                <a href="https://comfy-macaron-99cf13.netlify.app/">
+                <a href="https://comfy-macaron-99cf13.netlify.app/" target="blank">
                 <img src={require('./imgs/weather-app.png')} alt="lady coding" className="imgs"/>
                 </a>
                 <br />
-                <p>Click on the image for the results  of the project and <a href="/" className="click">CLICK HERE</a> for the code </p>
+                <p>Click on the image for the results  of the project and <a href="https://github.com/HangwelaniN/react-weather-project" target="blank"  className="click">CLICK HERE</a> for the code </p>
                 
               </Col>
               <Col className="nailtech">
@@ -25,15 +25,15 @@ export default function Projects () {
                 <img src={require('./imgs/nailtech.png')} alt="nail tech's portfolio" className="imgs"/>
                 </a>
                 <br />
-                <p>Click on the image for the results of the project and <a href="/" className="click">CLICK HERE</a> for the code </p>
+                <p>Click on the image for the results of the project and <a href="https://github.com/HangwelaniN/portfolio-project"  target="blank"   className="click">CLICK HERE</a> for the code </p>
                 
               </Col>
               <Col className="cal">
-                <a href="https://dulcet-bunny-a93f30.netlify.app/" target="blank">
-                <img src={require('./imgs/calculator.png')} alt="weather application using reactjs" className="imgs"/>
+                <a href="https://precious-granita-08d2e8.netlify.app/" target="blank">
+                <img src={require('./imgs/blog.png')} alt="weather application using reactjs" className="imgs"/>
                 </a>
                 <br />
-                <p>Click on the image for the results  of the project and <a href="/" className="click">CLICK HERE</a> for the code </p>
+                <p>Click on the image for the results  of the project and <a href="https://github.com/HangwelaniN/H.-Block" target="blank" className="click">CLICK HERE</a> for the code </p>
                 
               </Col>
            </Row>
