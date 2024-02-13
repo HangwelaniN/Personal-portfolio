@@ -11,14 +11,12 @@ import {faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import {faPhone } from '@fortawesome/free-solid-svg-icons'
 
 
-
-
 function App() {
   return (
     
   <div className="App" >
     <h1 className='p-3 fs-3'>HangwelaniN</h1>
-     <Home />
+    <Home />
      <About />
      <Projects />
      <Contacts />

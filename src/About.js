@@ -1,6 +1,7 @@
 import React from "react";
 import './About.css';
-import Button from 'react-bootstrap/Button';
+import Button from "react-bootstrap/Button"
+
 
 export default function About () {
     return(
